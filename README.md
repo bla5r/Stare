@@ -1,2 +1,2 @@
 # Stare
-Diff source code viewer for patch analysis
+Diff code source viewer for patch analysis

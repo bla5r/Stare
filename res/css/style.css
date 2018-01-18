@@ -1,0 +1,126 @@
+/*
+ * This file is part of Stare.
+ *
+ * Copyright(c) 2018 bla5r
+ * https://github.com/bla5r
+ *
+ * This file may be licensed under the terms of of the
+ * GNU General Public License Version 2 (the ``GPL'').
+ *
+ * Software distributed under the License is distributed
+ * on an ``AS IS'' basis, WITHOUT WARRANTY OF ANY KIND, either
+ * express or implied. See the GPL for the specific language
+ * governing rights and limitations.
+ *
+ * You should have received a copy of the GPL along with this
+ * program. If not, go to http://www.gnu.org/licenses/gpl.html
+ * or write to the Free Software Foundation, Inc.,
+ * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+ */
+
+body, html {
+	font-family: Menlo, Monaco, "Courier New", monospace;
+}
+
+.sidebar {
+	position: fixed;
+	top: 0px;
+	width: 200px;
+	height: 100%;
+	background: #363636;
+	border: 1px solid #909090;
+	z-index: 1337;
+}
+
+#lSidebar {
+	-webkit-box-shadow: 4px 0px 10px -6px rgba(0,0,0,0.66);
+	-moz-box-shadow: 4px 0px 10px -6px rgba(0,0,0,0.66);
+	box-shadow: 4px 0px 10px -6px rgba(0,0,0,0.66);
+	left: 0px;
+}
+
+#rSidebar {
+	-webkit-box-shadow: -4px 0px 10px -6px rgba(0,0,0,0.66);
+	-moz-box-shadow: -4px 0px 10px -6px rgba(0,0,0,0.66);
+	box-shadow: -4px 0px 10px -6px rgba(0,0,0,0.66);
+	right: 0px;
+}
+
+.headerSidebar {
+	position: absolute;
+	width: 90%;
+	top: 0px;
+	left: 5%;
+	height: 50px;
+}
+
+.selectorSidebar {
+	width: 100%;
+	margin-top: 16px;
+	background: #4a4a4a;
+	border: 1px solid #909090;
+	color: #e0e0e0;
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+}
+
+.explorer {
+	position: absolute;
+	top: 50px;
+	width: 90%;
+	left: 5%;
+	background: #4a4a4a;
+	color: #e0e0e0;
+	border: 1px solid #909090;
+	bottom: 15px;
+	overflow: auto;
+}
+
+#navbar {
+	position: fixed;
+	top: 0px;
+	left: 200px;
+	width: calc(100% - 400px);
+	height: 50px;
+	border: 1px solid #909090;
+	background: #363636;
+	-webkit-box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.46);
+	-moz-box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.46);
+	box-shadow: 0px 3px 10px -4px rgba(0,0,0,0.46);
+}
+
+.navTitle {
+	position: absolute;
+	width: 45%;
+	color: #e0e0e0;
+	padding: 17px;
+	white-space: nowrap;
+	overflow: auto;
+}
+
+#lNavTitle {
+	left: 0px;
+	text-align: left;
+}
+
+#rNavTitle {
+	right: 3px;
+	text-align: right;
+}
+
+#container {
+	position: fixed;
+	top: 50px;
+	left: 200px;
+	width: calc(100% - 400px);
+	height: calc(100% - 50px);
+	border: 1px solid #909090;
+}
+
+#syncImage {
+	position: fixed;
+	right: 215px;
+	color: #e0e0e0;
+	bottom: 10px;
+}

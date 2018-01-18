@@ -1,0 +1,18 @@
+{
+  "name": "emare",
+  "version": "1.0.0",
+  "description": "Versioning visualizer for reverse engineering purposes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bla5r",
+  "license": "MIT",
+  "dependencies": {
+    "basic-auth-connect": "^1.0.0",
+    "body-parser": "^1.18.2",
+    "config": "^1.29.2",
+    "express": "^4.16.2",
+    "monaco-editor": "^0.10.1"
+  }
+}

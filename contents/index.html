@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Stare Viewer</title>
+	<!-- Importing stylesheets -->
+	<link type="text/css" rel="stylesheet" href="res/css/style.css" />
+	<link type="text/css" rel="stylesheet" href="res/css/fileTree.css" />
+	<link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" integrity="sha384-dNpIIXE8U05kAbPhy3G1cz+yZmTzA6CY8Vg/u2L9xRnHjJiAK76m2BIEaSEV+/aU" crossorigin="anonymous">
+	<!-- Loading library scripts -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="/res/js/fileTree.js"></script>
+	<script type="text/javascript" src="/node_modules/monaco-editor/min/vs/loader.js"></script>
+</head>
+<body>
+	<div id="lSidebar" class="sidebar">
+		<div class="headerSidebar">
+			<select id="lSelector" class="selectorSidebar">
+				<option value="none" disabled selected>Loading...</option>
+			</select>
+		</div>
+		<div id="lExplorer" class="explorer"></div>
+	</div>
+	<div id="rSidebar" class="sidebar">
+		<div class="headerSidebar">
+			<select id="rSelector" class="selectorSidebar">
+				<option value="none" disabled selected>Loading...</option>
+			</select>
+		</div>
+		<div id="rExplorer" class="explorer"></div>
+	</div>
+	<div id="navbar">
+		<div id="lNavTitle" class="navTitle">Select a file to open</div>
+		<div id="rNavTitle" class="navTitle">Select a file to open</div>
+	</div>
+	<div id="container"></div>
+	<a href="#" id="syncButton" alt="Synchronize files">
+		<i id="syncImage" class="fa fa-refresh fa-2x" aria-hidden="true"></i>
+	</a>
+	<!-- Loading scripts -->
+	<script type="text/javascript" src="/res/js/monaco-editor.custom.js"></script>
+	<script type="text/javascript" src="/res/js/fileTree.custom.js"></script>
+	<script type="text/javascript" src="/res/js/events.js"></script>
+</body>
+</html>
