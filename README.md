@@ -76,6 +76,11 @@ Note that when this file is created, the changes immediately take effect, you on
 
 Stare is licensed under the GNU GPL license. Have a look at the [LICENSE](https://github.com/bla5r/Stare/blob/master/LICENSE) for more information.
 
+# Credits
+
+ + [Microsoft](https://github.com/Microsoft): The code viewer is based on the project [monaco-editor](https://github.com/Microsoft/monaco-editor)
+ + [claviska](https://github.com/claviska): The file tree is based on the project [jquery-file-tree](https://www.abeautifulsite.net/jquery-file-tree)
+
 # Contact
 
 If you have any question about the project, feel free to contact me on Twitter: [@bla5r](https://twitter.com/bla5r)
