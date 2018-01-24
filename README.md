@@ -64,11 +64,11 @@ The content of this file must fit the following sample pattern:
 ```
 
  + name
-  > Project name
+   > Project name
  + version
-  > Project version
+   > Project version
  + lang
-  > Language used for the project development
+   > Language used for the project development
 
 Note that when this file is created, the changes immediately take effect, you only have to refresh the page thanks to your web browser. That is, no need to re-run the server.
 
